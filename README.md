@@ -162,11 +162,9 @@ A public, weekly series of Jupyter notebooks tracking a structured ML/DS learnin
 </div>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dhruvpatel0711/dhruvpatel0711/output/dist/github-contribution-grid-snake-dark.svg">
-  <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/dhruvpatel0711/dhruvpatel0711/output/dist/github-contribution-grid-snake.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dhruvpatel0711/dhruvpatel0711/output/github-contribution-grid-snake-dark.svg">
+  <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/dhruvpatel0711/dhruvpatel0711/output/github-contribution-grid-snake.svg">
 </picture>
-
-> 🐍 The snake above renders once you add `snake.yml` to `.github/workflows/` in your **`dhruvpatel0711/dhruvpatel0711`** profile repo and run the workflow once (Actions tab → "Generate Snake Animation" → Run workflow). It commits the SVGs to an `output` branch, which is what the image tag above points to.
 
 ---
 
