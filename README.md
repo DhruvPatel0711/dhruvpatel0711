@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,100:7aa2f7&height=220&section=header&text=Dhruv%20Patel&fontSize=60&fontColor=c0caf5&animation=fadeIn&fontAlignY=38&desc=aka%20Titan%20%7C%20ML%2FDS%20Engineer%20in%20the%20making&descAlignY=55&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,100:7aa2f7&height=220&section=header&text=Dhruv%20Patel&fontSize=60&fontColor=c0caf5&animation=fadeIn&fontAlignY=38&ML%2FDS%20Engineer%20in%20the%20making&descAlignY=55&descSize=18" width="100%"/>
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=7AA2F7&center=true&vCenter=true&width=650&lines=Final-Year+CS+Student+%40+Indus+University;Pivoting+from+MERN+Full-Stack+to+ML%2FDS;Building+in+public+%7C+100+Days+of+ML;Leakage-safe+pipelines+%7C+Multi-Agent+AI" alt="Typing SVG" />
