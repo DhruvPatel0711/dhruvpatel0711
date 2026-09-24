@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,100:7aa2f7&height=220&section=header&text=Dhruv%20Patel&fontSize=60&fontColor=c0caf5&animation=fadeIn&fontAlignY=38&ML%2FDS%20Engineer%20in%20the%20making&descAlignY=55&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,50:7aa2f7,100:bb9af7&height=220&section=header&text=Dhruv%20Patel&fontSize=60&fontColor=c0caf5&animation=fadeIn&fontAlignY=38&ML%2FDS%20%26%20GenAI%20Engineer%20in%20the%20making&descAlignY=55&descSize=18" width="100%"/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=7AA2F7&center=true&vCenter=true&width=650&lines=Final-Year+CS+Student+%40+Indus+University;Pivoting+from+MERN+Full-Stack+to+ML%2FDS;Building+in+public+%7C+100+Days+of+ML;Leakage-safe+pipelines+%7C+Multi-Agent+AI" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=7AA2F7&center=true&vCenter=true&width=700&lines=Final-Year+CS+Student+%40+Indus+University;Pivoting+from+MERN+Full-Stack+to+ML%2FDS%2FGenAI;Building+in+public+%7C+RAG+%7C+Deep+Learning;Leakage-safe+pipelines+%7C+Evaluated+RAG+systems" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -17,37 +17,41 @@
 
 ---
 
-### 👋 About Me
+### About Me
 
-- 🎓 Final-year **B.Tech in Computer Science Engineering**, Indus University, Ahmedabad — graduating **June 2027**, **9.0 CGPA**
-- 🔄 Currently pivoting from a **MERN full-stack** background into **Machine Learning & Data Science engineering**
-- 💼 Completed an **AI / Full-Stack Engineering internship at IITE** (June–Dec 2024)
-- 🏁 Finalist, **Odoo x Indus University Hackathon 2026**
-- 📚 Building in public through a **"100 Days of ML"** series — weekly notebooks + write-ups, currently at **Week 9 (Ensemble Methods: Random Forests & Bagging)**
-- 🩺 Building **LifeSphere**, a multi-agent AI healthcare platform, as my 7th-semester capstone project
-- 🧠 Core focus: leakage-safe ML pipelines, model evaluation rigor, and turning notebooks into deployable systems
-- ⚡ I work best in a **flow state** — pattern recognition over rigid process, high-density communication, ship fast and iterate
+- Final year **B.Tech in Computer Science Engineering**, Indus University, Ahmedabad, graduating **June 2027**, **9.0 CGPA**
+- Pivoting from a **MERN full stack** background into **Machine Learning, Data Science, and GenAI engineering**
+- **AI Intern**, IITE, Indus University (June 2024): NLP pipelines, text preprocessing, early LLM exploration
+- **Full Stack Development Intern**, IITE, Indus University (Dec 2024): REST APIs, modular architecture, Node.js/Express/MongoDB deployment
+- Finalist, **Odoo x Indus University Hackathon 2026**
+- Currently building **Laws of Power RAG**, an evaluated Retrieval Augmented Generation system over a personal knowledge base, and running **100 Days of Deep Learning** (PyTorch) after completing 100 Days of ML
+- Building **LifeSphere**, a multi agent AI healthcare platform, as a 7th semester capstone project
+- Core focus: leakage safe ML pipelines, retrieval evaluation rigor, and turning notebooks into deployable systems
+- I work best in a flow state: pattern recognition over rigid process, high density communication, ship fast and iterate
 
 ---
 
-### 🏆 Achievements & Learning
+### Achievements & Certifications
 
 <table>
 <tr>
 <td width="50%">
 
 **Certifications**
+- AWS Academy Graduate, Machine Learning for NLP (2026)
+- AWS Academy Graduate, Machine Learning Foundations (2026)
+- AWS Academy Graduate, Cloud Foundations (2026)
 - Harvard **CS50x** (2025)
-
-**Competitions**
-- Kaggle: **Biohub Cell Tracking** — zebrafish embryo 3D+time tracking
+- Kaggle Learn, Intro to ML + Pandas + Data Visualisation (2026)
 
 </td>
 <td width="50%">
 
-**Public Building**
-- 100 Days of ML — Week 9, public notebooks + carousels
-- Ran a public **CS50 problem-solving series** on LinkedIn that drove recruiter interest in full-stack roles — now replicating the model for ML/DS
+**Competitions & Public Building**
+- Kaggle: **Biohub Cell Tracking**, zebrafish embryo 3D+time tracking
+- 100 Days of ML: completed, public notebooks + carousels
+- 100 Days of Deep Learning: in progress, PyTorch
+- Ran a public CS50 problem solving series on LinkedIn that drove recruiter interest, now replicating the model for ML/DS/GenAI
 
 </td>
 </tr>
@@ -57,32 +61,33 @@
 
 ---
 
-### 💼 Featured Projects
+### Featured Projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-**🔧 Fix-Risk Predictor**
+**Laws of Power RAG**
 
-Self-mined GitHub commit-level bug-risk prediction system.
+Evaluated Retrieval Augmented Generation system over a personal 28 document knowledge base.
 
-- **Problem:** Predict which commits are likely to introduce bugs, using only signals available at commit time
-- **Approach:** Leakage-safe pipeline with `GroupKFold` + time-based cross-validation, permutation importance for feature interpretation, 6-model comparison
-- **Deployment:** Live on Streamlit
-- **Data:** Self-collected and published as a public [Kaggle dataset](https://www.kaggle.com/datasets/dhruvpatel0711/github-commit-fix-risk-dataset)
-- **Stack:** Python, scikit-learn, Streamlit, pandas
+- **Architecture:** local BGE embeddings (1024 dim), persistent ChromaDB vector store with metadata attached retrieval, a LangChain LCEL orchestration chain with citation constrained grounded generation
+- **Evaluation:** 60 question retrieval benchmark across multiple k values, Retrieval@1 68.3% up to Retrieval@10 95.0%, with diagnostics separating retrieval failures from generation failures
+- **Serving:** FastAPI backend, Streamlit UI
+- **Stack:** Python, LangChain, ChromaDB, Sentence Transformers, FastAPI, Streamlit
 
 </td>
 <td width="50%" valign="top">
 
-**🩺 LifeSphere**
+**Fix Risk Predictor**
 
-Multi-agent AI healthcare platform — 7th-semester capstone (CE0727).
+Self mined GitHub commit level bug risk prediction system.
 
-- **Architecture:** Six coordinated agents — Medical Report Explainer, Medicine Assistant, Health Trend Analyst, Symptom Checker, Emergency & Family, and a Master Coordinator orchestrating them
-- **Scope:** Full-stack (MERN) + AI/ML, software-only platform
-- **Status:** In active development
+- **Problem:** predict which commits are likely to introduce bugs, using only signals available at commit time
+- **Approach:** leakage safe pipeline with GroupKFold and time based cross validation, permutation importance for feature interpretation, 6 model comparison
+- **Deployment:** live on Streamlit Cloud
+- **Data:** self collected and published as a public [Kaggle dataset](https://www.kaggle.com/datasets/dhruvpatel0711/github-commit-fix-risk-dataset)
+- **Stack:** Python, scikit-learn, Streamlit, pandas
 
 </td>
 </tr>
@@ -90,15 +95,26 @@ Multi-agent AI healthcare platform — 7th-semester capstone (CE0727).
 
 <table>
 <tr>
-<td width="100%" valign="top">
+<td width="50%" valign="top">
 
-**📓 100 Days of ML**
+**End to End ML Pipeline**
 
-A public, weekly series of Jupyter notebooks tracking a structured ML/DS learning path.
+Multi model classification and evaluation framework.
 
-- Currently: **Week 9 — Ensemble Methods** (Random Forests, Bagging)
-- Each week ships a notebook + a structured write-up documenting the concept, the code, and the debugging process
-- Past weeks have surfaced and fixed real ML pitfalls — including cross-validation data leakage bugs (unscaled features passed to `cross_val_score` without a `Pipeline`)
+- Complete pipeline for binary classification: preprocessing, feature scaling (StandardScaler), model training, automated evaluation
+- Benchmarked Logistic Regression, Random Forest, and XGBoost across Accuracy, Precision, Recall, and F1 Score
+- **Stack:** Python, scikit-learn, XGBoost, pandas, Matplotlib, Seaborn
+
+</td>
+<td width="50%" valign="top">
+
+**LifeSphere**
+
+Multi agent AI healthcare platform, 7th semester capstone (CE0727).
+
+- **Architecture:** six coordinated agents, Medical Report Explainer, Medicine Assistant, Health Trend Analyst, Symptom Checker, Emergency & Family, and a Master Coordinator orchestrating them
+- **Scope:** full stack (MERN) + AI/ML, software only platform
+- **Status:** in active development
 
 </td>
 </tr>
@@ -106,39 +122,35 @@ A public, weekly series of Jupyter notebooks tracking a structured ML/DS learnin
 
 ---
 
-### ⚡ Engineering Stack
+### Engineering Stack
 
 <div align="center">
 
-**Languages**
+<img src="https://skillicons.dev/icons?i=python,js,ts,java,sqlite,postgres,mongodb,nodejs,express,react,nextjs,tailwind,pytorch,git,github&theme=dark" />
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+</div>
 
-**Full-Stack (MERN)**
+<div align="center">
 
-![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Express.js](https://img.shields.io/badge/-Express.js-000000?style=flat-square&logo=express&logoColor=white)
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+**GenAI / LLM**
+
+![LangChain](https://img.shields.io/badge/-LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/-ChromaDB-FF6B6B?style=flat-square)
+![HuggingFace](https://img.shields.io/badge/-HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 
 **ML / Data Science**
 
 ![scikit-learn](https://img.shields.io/badge/-scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/-XGBoost-0E7C61?style=flat-square)
 ![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/-NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/-Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
 
-**Databases & Deployment**
+**Deployment & Tools**
 
-![SQLite](https://img.shields.io/badge/-SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-
-**Tools**
-
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
 ![Obsidian](https://img.shields.io/badge/-Obsidian-483699?style=flat-square&logo=obsidian&logoColor=white)
 ![Kaggle](https://img.shields.io/badge/-Kaggle-20BEFF?style=flat-square&logo=kaggle&logoColor=white)
 
@@ -146,7 +158,7 @@ A public, weekly series of Jupyter notebooks tracking a structured ML/DS learnin
 
 ---
 
-### 📈 GitHub Metrics
+### GitHub Metrics
 
 <div align="center">
 
@@ -168,17 +180,17 @@ A public, weekly series of Jupyter notebooks tracking a structured ML/DS learnin
 
 ---
 
-### 🌱 Currently Exploring
+### Currently Exploring
 
-- 🌲 Ensemble Methods (Random Forests, Bagging, Boosting)
-- 🤖 Multi-Agent AI system design (via LifeSphere)
-- 🧪 Leakage-safe ML evaluation practices (GroupKFold, time-aware CV, permutation importance)
-- 📊 Model deployment & interpretability (Streamlit, feature importance)
-- 🗄️ Applied database design (normalized schemas, dashboard-ready analytics)
+- Deep Learning fundamentals (100 Days of Deep Learning, PyTorch)
+- Finishing the serving and evaluation layer of an evaluated RAG system (FastAPI, RAGAS)
+- Agentic AI and tool use (LangGraph, next up after RAG)
+- Model Context Protocol (MCP)
+- Leakage safe ML evaluation practices (GroupKFold, time aware CV, permutation importance)
 
 ---
 
-### 🤝 Let's Connect
+### Let's Connect
 
 <div align="center">
 
@@ -195,6 +207,6 @@ A public, weekly series of Jupyter notebooks tracking a structured ML/DS learnin
 
 *"Ship the notebook, fix the leak, then worry about the leaderboard."*
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7aa2f7,100:1a1b27&height=100&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:bb9af7,50:7aa2f7,100:1a1b27&height=100&section=footer"/>
 
 </div>
