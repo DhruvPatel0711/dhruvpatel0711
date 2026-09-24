@@ -1,263 +1,143 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f1117,45:1a1b27,75:7aa2f7,100:bb9af7&height=240&section=header&text=Dhruv%20Patel&fontSize=64&fontColor=c0caf5&animation=fadeIn&fontAlignY=38&desc=ML%20%2F%20DS%20%2F%20GenAI%20Engineer%20in%20the%20making&descAlignY=58&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1b27,100:7aa2f7&height=220&section=header&text=Dhruv%20Patel&fontSize=60&fontColor=c0caf5&animation=fadeIn&fontAlignY=38&desc=AI%20Engineer%20in%20the%20making&descAlignY=58&descSize=20" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=19&duration=3000&pause=900&color=7AA2F7&center=true&vCenter=true&width=750&lines=Building+ML+systems+that+actually+ship.;RAG+%7C+Deep+Learning+%7C+Machine+Learning;From+MERN+%E2%86%92+ML%2FDS%2FGenAI;Experimenting.+Evaluating.+Deploying." />
+<br>
 
-<br/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=3000&pause=1000&color=7AA2F7&center=true&vCenter=true&width=720&lines=Building+AI+systems+that+actually+ship.;RAG+%7C+Deep+Learning+%7C+Machine+Learning;Build.+Evaluate.+Deploy.+Iterate." />
 
-<a href="https://github.com/dhruvpatel0711">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+<br><br>
+
+<a href="https://dhruvpatel0711.github.io/my-portfolio/">
+<img src="https://img.shields.io/badge/PORTFOLIO-7AA2F7?style=for-the-badge&logo=googlechrome&logoColor=white"/>
 </a>
 &nbsp;
 <a href="https://www.linkedin.com/in/dhruvpatel0711/">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+<img src="https://img.shields.io/badge/LINKEDIN-1A1B27?style=for-the-badge&logo=linkedin&logoColor=7AA2F7"/>
 </a>
 &nbsp;
 <a href="https://www.kaggle.com/dhruvpatel0711">
-<img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white"/>
+<img src="https://img.shields.io/badge/KAGGLE-1A1B27?style=for-the-badge&logo=kaggle&logoColor=20BEFF"/>
 </a>
-&nbsp;
-<a href="mailto:dhruv11072005@gmail.com">
-<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-
-<br/><br/>
-
-<a href="YOUR_PORTFOLIO_URL">
-<img src="https://img.shields.io/badge/%E2%86%92%20EXPLORE%20MY%20PORTFOLIO-7AA2F7?style=for-the-badge&labelColor=1a1b27"/>
-</a>
-
-<br/><br/>
-
-![Profile Views](https://komarev.com/ghpvc/?username=dhruvpatel0711\&label=PROFILE%20VIEWS\&color=7aa2f7\&style=flat-square)
 
 </div>
 
 ---
 
-## `01` — whoami
+## About
 
-I'm **Dhruv Patel**, a final-year Computer Science student at **Indus University, Ahmedabad** building toward **ML / Data Science / GenAI engineering**.
+I'm **Dhruv Patel**, a final-year Computer Science student at **Indus University, Ahmedabad**, building toward **AI Engineering**.
 
-I started with full-stack development and am now moving deeper into the systems behind intelligent applications — from classical ML pipelines to retrieval systems, deep learning and agentic AI.
+I started with full-stack development and am now focused on building AI systems across **machine learning, deep learning, RAG, LLMs and agentic AI**.
 
-```text
-MERN
-  ↓
-Machine Learning
-  ↓
-Data Science
-  ↓
-RAG Systems
-  ↓
-Deep Learning
-  ↓
-Agentic AI
-```
+My focus is simple:
 
-> **Build → Evaluate → Deploy → Iterate**
-
-My current interests sit at the intersection of **machine learning, retrieval systems, software engineering and applied GenAI**.
+> **Build things. Measure them. Make them better.**
 
 ---
 
-## `02` — featured work
+## Featured Work
 
-### ◈ Laws of Power RAG
+### Laws of Power RAG
 
 **Evaluated Retrieval-Augmented Generation system**
 
-A 28-document knowledge base turned into a measurable RAG pipeline rather than just a chatbot.
+A 28-document knowledge base with retrieval benchmarking and grounded generation.
 
-**Architecture**
+`BGE` · `ChromaDB` · `LangChain` · `FastAPI` · `Streamlit`
 
-`BGE Embeddings` → `ChromaDB` → `Metadata Retrieval` → `LangChain LCEL` → `Grounded Generation`
+| Benchmark     |    Result |
+| ------------- | --------: |
+| Questions     |        60 |
+| Retrieval @1  | **68.3%** |
+| Retrieval @10 | **95.0%** |
 
-**Evaluation**
-
-```text
-Benchmark Questions      60
-Retrieval @1              68.3%
-Retrieval @10             95.0%
-Embedding Dimension       1024
-Knowledge Base            28 documents
-```
-
-Built with **Python · LangChain · ChromaDB · Sentence Transformers · FastAPI · Streamlit**
-
-→ **[View Project](YOUR_RAG_PROJECT_URL)**
+<a href="https://dhruvpatel0711.github.io/my-portfolio/">
+View project →
+</a>
 
 ---
 
-### ◈ Fix Risk Predictor
+### Fix Risk Predictor
 
-**Leakage-safe ML system for GitHub commits**
+**Leakage-safe GitHub commit risk prediction**
 
-Predicts whether a commit is likely to introduce a bug using only information available at commit time.
+Predicts whether a commit is likely to introduce bugs using only information available at commit time.
 
-**Focus**
+`scikit-learn` · `pandas` · `GroupKFold` · `Time CV` · `Streamlit`
 
-* GroupKFold validation
-* Time-based cross-validation
-* Permutation importance
-* Six-model comparison
-* Self-collected GitHub dataset
-* Public Kaggle dataset
-* Streamlit deployment
+Self-collected dataset published on Kaggle.
 
-`Python` `scikit-learn` `pandas` `Streamlit`
-
-→ **[Live Demo](YOUR_FIX_RISK_URL)**
-→ **[Kaggle Dataset](https://www.kaggle.com/datasets/dhruvpatel0711/github-commit-fix-risk-dataset)**
+<a href="https://www.kaggle.com/datasets/dhruvpatel0711/github-commit-fix-risk-dataset">
+View dataset →
+</a>
 
 ---
 
-### ◈ LifeSphere
+### LifeSphere
 
-**Multi-agent AI healthcare platform**
+**Multi-agent AI platform**
 
-7th semester capstone project combining full-stack engineering with AI.
+7th semester capstone combining full-stack engineering with AI.
 
-```text
-                    ┌──────────────────┐
-                    │ Master Coordinator│
-                    └────────┬─────────┘
-                             │
-        ┌────────────┬───────┼────────┬─────────────┐
-        ↓            ↓       ↓        ↓             ↓
-   Medical       Medicine  Health   Symptom     Emergency
-   Reports       Assistant Trends   Checker      & Family
-```
+Six coordinated agents covering medical reports, medicine assistance, health trends, symptom checking and emergency/family workflows.
 
-**Stack**
+`MERN` · `AI/ML` · `Multi-Agent Architecture`
 
-`MERN` · `AI/ML` · `Agentic Architecture`
-
-Currently in active development.
-
-→ **[View Project](YOUR_LIFESPHERE_URL)**
+**In active development.**
 
 ---
 
-### ◈ End-to-End ML Pipeline
+## Currently Exploring
 
-A reusable classification framework covering the complete ML workflow:
+`PyTorch` · `Deep Learning` · `RAG Evaluation` · `LangGraph` · `MCP` · `AI Systems`
 
-`Data → Preprocessing → Scaling → Training → Evaluation → Comparison`
-
-Models:
-
-`Logistic Regression` · `Random Forest` · `XGBoost`
-
-Metrics:
-
-`Accuracy` · `Precision` · `Recall` · `F1`
+Currently running **100 Days of Deep Learning** after completing 100 Days of ML.
 
 ---
 
-## `03` — what I'm building now
+## Stack
 
 <div align="center">
 
-| Area | Current Focus                                |
-| :--: | :------------------------------------------- |
-|  🧠  | **Deep Learning** — PyTorch                  |
-|  🔎  | **RAG** — retrieval + evaluation             |
-|  🤖  | **Agentic AI** — LangGraph                   |
-|  🔌  | **MCP** — Model Context Protocol             |
-|  📊  | **ML Evaluation** — leakage-safe validation  |
-|  ⚙️  | **Serving** — FastAPI + production workflows |
+<img src="https://skillicons.dev/icons?i=python,pytorch,js,ts,java,react,nextjs,nodejs,express,fastapi,postgres,mongodb,git,github&theme=dark"/>
 
-</div>
+<br><br>
 
-I'm currently running a **100 Days of Deep Learning** journey after completing my 100 Days of ML.
-
----
-
-## `04` — engineering stack
-
-<div align="center">
-
-### Languages
-
-<img src="https://skillicons.dev/icons?i=python,js,ts,java,sql&theme=dark"/>
-
-### Machine Learning
-
-<img src="https://skillicons.dev/icons?i=pytorch&theme=dark"/>
-
-<br/>
-
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square\&logo=scikit-learn\&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-0E7C61?style=flat-square)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square\&logo=pandas\&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square\&logo=numpy\&logoColor=white)
-
-### GenAI
-
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B6B?style=flat-square)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square\&logo=huggingface\&logoColor=black)
-
-### Backend & Data
-
-<img src="https://skillicons.dev/icons?i=fastapi,nodejs,express,postgres,mongodb&theme=dark"/>
-
-### Frontend
-
-<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind&theme=dark"/>
-
-### Tools
-
-<img src="https://skillicons.dev/icons?i=git,github,vscode&theme=dark"/>
-
-<br/><br/>
-
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square\&logo=streamlit\&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square\&logo=amazonaws\&logoColor=white)
-![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square\&logo=kaggle\&logoColor=white)
+<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/>
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square"/>
+<img src="https://img.shields.io/badge/ChromaDB-FF6B6B?style=flat-square"/>
+<img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black"/>
+<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white"/>
+<img src="https://img.shields.io/badge/XGBoost-0E7C61?style=flat-square"/>
 
 </div>
 
 ---
 
-## `05` — experience
+## Experience
 
-**AI Intern · IITE, Indus University**
-`June 2024`
+**AI Intern — IITE, Indus University** · `2024`
+NLP pipelines · Text preprocessing · Early LLM exploration
 
-NLP pipelines · text preprocessing · early LLM exploration
+**Full Stack Development Intern — IITE, Indus University** · `2024`
+REST APIs · Node.js · Express · MongoDB · Deployment
 
-**Full Stack Development Intern · IITE, Indus University**
-`December 2024`
-
-REST APIs · modular architecture · Node.js · Express · MongoDB · deployment
-
-**Odoo × Indus University Hackathon**
-`Finalist · 2026`
+**Odoo × Indus University Hackathon** · `Finalist · 2026`
 
 ---
 
-## `06` — certifications
+## Certifications
 
-<div align="center">
-
-| Certification                              | Year |
-| :----------------------------------------- | :--: |
-| AWS Academy — Machine Learning for NLP     | 2026 |
-| AWS Academy — Machine Learning Foundations | 2026 |
-| AWS Academy — Cloud Foundations            | 2026 |
-| Kaggle — Intro to ML                       | 2026 |
-| Kaggle — Pandas                            | 2026 |
-| Kaggle — Data Visualisation                | 2026 |
-| Harvard CS50x                              | 2025 |
-
-</div>
+AWS Academy — Machine Learning for NLP · 2026
+AWS Academy — Machine Learning Foundations · 2026
+AWS Academy — Cloud Foundations · 2026
+Harvard CS50x · 2025
+Kaggle Learn — ML · Pandas · Data Visualisation · 2026
 
 ---
 
-## `07` — GitHub
+## GitHub
 
 <div align="center">
 
@@ -265,89 +145,32 @@ REST APIs · modular architecture · Node.js · Express · MongoDB · deployment
 
 <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dhruvpatel0711&layout=compact&theme=tokyonight&hide_border=true"/>
 
-<br/><br/>
+<br><br>
 
 <img src="https://streak-stats.demolab.com?user=dhruvpatel0711&theme=tokyonight&hide_border=true"/>
 
-<br/><br/>
+</div>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=dhruvpatel0711&theme=tokyo-night&hide_border=true" width="100%"/>
+---
+
+## Contribution Graph
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/dhruvpatel0711/dhruvpatel0711/output/github-contribution-grid-snake-dark.svg" alt="GitHub contribution snake"/>
 
 </div>
 
 ---
 
-## `08` — public learning
-
 <div align="center">
 
-**100 Days of ML**
-`✓ Completed`
-
-**100 Days of Deep Learning**
-`◉ In Progress`
-
-**Kaggle — Biohub Cell Tracking**
-`Zebrafish embryo 3D + time tracking`
-
-</div>
-
-I believe learning becomes more useful when the work is **visible, reproducible and evaluated**.
-
----
-
-## `09` — philosophy
-
-<div align="center">
-
-### Build things that can be measured.
-
-<br/>
-
-`Don't just train → evaluate.`
-`Don't just retrieve → benchmark.`
-`Don't just prototype → deploy.`
-
-<br/>
-
-**Ship the notebook. Fix the leak. Then worry about the leaderboard.**
-
-</div>
-
----
-
-## `10` — let's connect
-
-<div align="center">
-
-<a href="YOUR_PORTFOLIO_URL">
-<img src="https://img.shields.io/badge/Portfolio-7AA2F7?style=for-the-badge&logo=googlechrome&logoColor=white"/>
-</a>
-&nbsp;
-<a href="https://www.linkedin.com/in/dhruvpatel0711/">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-&nbsp;
-<a href="https://github.com/dhruvpatel0711">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-&nbsp;
-<a href="https://www.kaggle.com/dhruvpatel0711">
-<img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white"/>
+<a href="https://dhruvpatel0711.github.io/my-portfolio/">
+<img src="https://img.shields.io/badge/EXPLORE%20MY%20PORTFOLIO-7AA2F7?style=for-the-badge&logo=googlechrome&logoColor=white"/>
 </a>
 
-<br/><br/>
+<br><br>
 
-<a href="mailto:dhruv11072005@gmail.com">
-<img src="https://img.shields.io/badge/Let's%20build%20something-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-
-</div>
-
-<br/>
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:bb9af7,50:7aa2f7,100:0f1117&height=120&section=footer"/>
+<sub>Ship the notebook. Fix the leak. Then worry about the leaderboard.</sub>
 
 </div>
